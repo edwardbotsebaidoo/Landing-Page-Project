@@ -117,5 +117,33 @@ button {
 .placeholder {
     border: solid black 2px;
     width: 400px;
-    height: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholder-text {
+    font-size: 30px;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: center;
+}
+
+.morepadding {
+    
+}
+
+.placeholder-subtext {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.placeholder-image {
+    height: 250px;
+    width: 250px;
 }
