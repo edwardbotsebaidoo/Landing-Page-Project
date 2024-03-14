@@ -14,7 +14,7 @@ body {
     font-size: 28px;
     color: #F9FAF8;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
@@ -36,15 +36,18 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+    gap: 100px;
 }
 
 .call-to-action {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 800px;
+    width: 780px;
+    padding-top: 80px;
 }
 
 .sub-text1 {
@@ -58,8 +61,24 @@ body {
     font-weight: bolder;
 }
 
+button {
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    background-color: #3882F6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .button1 {
     color: aqua;
+    padding-top: 20px;
+}
+
+.button1-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .image-container {
@@ -68,8 +87,35 @@ body {
 }
 
 .main-image {
-    max-width: 800px;
+    max-width: 750px;
     max-height: auto;
     border: solid black 2px;
-    margin-top: 15px;
+    margin-top: 40px;
+}
+
+.info-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.examples {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.placeholder {
+    border: solid black 2px;
+    width: 400px;
+    height: 300px;
 }
