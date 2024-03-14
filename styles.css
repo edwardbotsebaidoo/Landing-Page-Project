@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     padding-left: 30px;
     background-color: #1F2937;
-    font-size: 28px;
+    font-size: 32px;
     color: #F9FAF8;
     font-weight: bold;
     padding-top: 20px;
@@ -19,13 +19,13 @@ body {
 }
 
 .logo {
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 .header-links {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
     padding-right: 300px;
     font-weight: 500;
     font-size: 20px;
@@ -105,6 +105,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-top: 10px;
 }
 
 .examples {
@@ -112,6 +113,7 @@ button {
     flex-direction: row;
     gap: 40px;
     padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .placeholder {
@@ -145,4 +147,27 @@ button {
 .placeholder-image {
     height: 250px;
     width: 250px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.from {
+    padding-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
 }
