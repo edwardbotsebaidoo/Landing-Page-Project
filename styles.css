@@ -14,7 +14,7 @@ body {
     font-size: 32px;
     color: #F9FAF8;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -53,6 +53,7 @@ body {
 .sub-text1 {
     color: #F9FAF8;
     padding-top: 10px;
+    font-size: 18px;
 }
 
 .small-header {
@@ -152,8 +153,8 @@ button {
 .quote-section {
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #E5E7EB;
@@ -162,7 +163,7 @@ button {
 .quote {
     font-size: 30px;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .from {
@@ -170,4 +171,68 @@ button {
     text-align: right;
     font-weight: bold;
     font-size: 18px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-backdrop {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 40px;
+    gap: 40px;
+    background-color: #3882F6;
+    height: 100px;
+    width: 800px;
+    border-radius: 6px;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+
+.bigger-text {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.smaller-text {
+    color: #F9FAF8;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.button-for-action {
+    border: #F9FAF8 solid 2px;
+    border-radius: 6px;
+    margin-right: 40px;
+    
+}
+
+.actual-button {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 18px;
+    margin: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
